@@ -2316,6 +2316,9 @@
 .fa-meetup:before {
   content: "\f2e0";
 }
+.fa-palette:before{
+  content: "\f53f";
+}
 .sr-only {
   position: absolute;
   width: 1px;
