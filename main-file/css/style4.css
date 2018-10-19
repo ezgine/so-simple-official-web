@@ -954,6 +954,22 @@ a:focus {
 #slider-tabs {
   text-transform: uppercase;
 }
+#slider-tabs li .image-box{
+  width: 1920px;
+  height: 960px;
+}
+#slider-tabs li .above-black{
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  height:100%;
+  width:100%;
+  background:black;
+  display:block;
+  zoom:1;
+  filter:alpha(opacity=70);
+  opacity:0.7;
+}
 #slider-tabs h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
@@ -1359,7 +1375,7 @@ a:focus {
 #market #market-2 #image-slider .item img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 292px;
 }
 #market #market-2 .vertical-heading {
   margin-bottom: 50px;
@@ -1374,12 +1390,14 @@ a:focus {
 }
 #market #market-2 .hovereffect {
   width: 100%;
-  height: 100%;
+  height: 240px;
   float: left;
   overflow: hidden;
   position: relative;
 }
 #market #market-2 .hovereffect img {
+  width: 100%;
+  height: 100%;
   display: block;
   position: relative;
 }
@@ -1491,6 +1509,7 @@ a:focus {
 }
 #services #service-1 img {
   width: 100%;
+  height: 100%;
 }
 #services #service-1 #responsiveTabsDemo .tabs-bg {
   background: #ffffff;
@@ -1503,11 +1522,16 @@ a:focus {
 }
 #services #service-1 #responsiveTabsDemo .col-md-6 {
   padding: 0;
+  height: 466px;
 }
 @media screen and (max-width: 767px) {
   #services #service-1 #responsiveTabsDemo .col-md-6 {
     padding: 0 15px;
   }
+}
+#services #service-1 #responsiveTabsDemo .col-md-6 #mobile{
+  width: 60%;
+  margin-left: 20%;
 }
 #services #service-1 #responsiveTabsDemo .r-tabs .r-tabs-panel {
   padding: 50px 0;
@@ -1635,8 +1659,9 @@ a:focus {
   color: rgb(133, 193, 89);
 }
 #services #service-3 {
-  background: url("../images/about-us4-bg.jpg") no-repeat fixed center;
+  background:#188eee url("../images/290826-P6PTAU-80.jpg") no-repeat fixed center;
   background-size: cover;
+  /* filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; */
 }
 #services #service-3 h3 {
   font-family: "Raleway", sans-serif;
