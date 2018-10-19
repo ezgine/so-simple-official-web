@@ -106,7 +106,7 @@ p {
 }
 
 .big-padding {
-  padding: 120px 0;
+  padding: 0px 0;
 }
 
 .mid-level-padding {
@@ -838,7 +838,7 @@ a:focus {
   transition: all 300ms ease-in-out;
   z-index: 2;
   display: inline-block;
-  float: right;
+  /* float: right; */
   top: 10px;
   right: 0;
 }
@@ -1068,14 +1068,14 @@ a:focus {
 /*slider styling end */
 /* home styling end */
 /* about us styling start */
-#reason {
+/* #reason {
   /* reason-1 start */
   /* reason-1 end */
   /* reason-2 start*/
   /* reason-2 end*/
   /* reason-3 start */
   /* reason-3 end */
-}
+/* } */ */
  #reason #reason-1 .second-line {
   margin-top: 50px;
 }
@@ -1305,17 +1305,25 @@ a:focus {
 } */
 
 /* reason styling end */
-#market {
+ /* #market {
   /* market-1 start */
   /* market-1 end */
   /* market-2 start*/
   /* market-2 end*/
   /* market-3 start */
   /* market-3 end */
-}
+/* } */ 
 #market #market-1 {
-  background: url("../images/servic4-bg.jpg") no-repeat fixed center;
+  background: url("../images/784.jpg") no-repeat fixed center;
   background-size: cover;
+}
+#market #market-1 .container{
+  padding:100px 20%;
+  width: 100%;
+  background-color:#000000;
+  filter:alpha(Opacity=80);
+  -moz-opacity:0.8;
+  opacity: 0.8;
 }
 #market #market-1 .vertical-heading {
   margin-bottom: 50px;
@@ -1496,14 +1504,14 @@ a:focus {
 
 /* about us styling end */
 /* services styling end */
-#services {
+/* #services { */
   /* service-1 start */
   /* service-1 end*/
   /* service-2 start */
   /* service-2 end */
   /* service-3 end */
   /* service-3 end */
-}
+/* } */
 #services #service-1 {
   background: #f5f5f5;
 }
@@ -1529,9 +1537,13 @@ a:focus {
     padding: 0 15px;
   }
 }
-#services #service-1 #responsiveTabsDemo .col-md-6 #mobile{
+#services #service-1 #responsiveTabsDemo .col-md-6 #machine{
   width: 60%;
   margin-left: 20%;
+}
+#services #service-1 #responsiveTabsDemo .col-md-6 #mobile{
+  width: 40%;
+  margin-left: 30%;
 }
 #services #service-1 #responsiveTabsDemo .r-tabs .r-tabs-panel {
   padding: 50px 0;
@@ -1659,9 +1671,17 @@ a:focus {
   color: rgb(133, 193, 89);
 }
 #services #service-3 {
-  background:#188eee url("../images/290826-P6PTAU-80.jpg") no-repeat fixed center;
+  background:url("../images/290826-P6PTAU-80.jpg") no-repeat fixed center;
   background-size: cover;
-  /* filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; */
+  /* background-color:black;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; */
+}
+#services #service-3 .container{
+  width: 100%;
+  padding: 120px 0;
+  background-color:#202125;
+  filter:alpha(Opacity=50);
+  -moz-opacity:0.5;
+  opacity: 0.5;
 }
 #services #service-3 h3 {
   font-family: "Raleway", sans-serif;
@@ -1679,13 +1699,13 @@ a:focus {
 
 /* services styling end */
 /* portfolio styling start */
-#portfolio {
+/* #portfolio { */
   /* portfolio1 start */
   /* portfolio1 end */
   /* portfolio2 start */
   /* portfolio2 end */
   /*portfolio3 start */
-}
+/* } */
 #about-us .vertical-heading {
   margin-bottom: 50px;
 }
@@ -2054,10 +2074,10 @@ a:focus {
 /*portfolio3 end */
 /* portfolio styling end */
 /* news styling start */
-#news {
+/* #news { */
   /*news-1 start */
   /*news-1 end */
-}
+/* } */
 #news #news-1 {
   background: #f5f5f5;
 }
@@ -2089,14 +2109,14 @@ a:focus {
 
 /* news styling end */
 /* contact-us styling start */
-#contact-us {
+/* #contact-us { */
   /* contact-us-1 start */
   /* contact-us-1 end */
   /* contact-us-2 start */
   /* contact-us-2 end */
   /* contact-us-3 start */
   /* contact-us-3 end */
-}
+/* } */
 #contact-us #contact-us1 {
   padding-top: 100px;
 }
