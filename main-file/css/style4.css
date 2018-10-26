@@ -841,6 +841,7 @@ a:focus {
   /* float: right; */
   top: 10px;
   right: 0;
+  float: right;
 }
 @media screen and (max-width: 767px) {
   .navbar .side-menu-button {
