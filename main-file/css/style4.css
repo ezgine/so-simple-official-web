@@ -956,7 +956,7 @@ a:focus {
 }
 #slider-tabs li .image-box{
   width: 1920px;
-  height: 960px;
+  height: 970px;
 }
 #slider-tabs li .above-black{
   position:absolute;
@@ -1317,14 +1317,6 @@ a:focus {
   background: url("../images/784.jpg") no-repeat fixed center;
   background-size: cover;
 }
-#market #market-1 .container{
-  padding:100px 20%;
-  width: 100%;
-  background-color:#000000;
-  filter:alpha(Opacity=80);
-  -moz-opacity:0.8;
-  opacity: 0.8;
-}
 #market #market-1 .vertical-heading {
   margin-bottom: 50px;
 }
@@ -1357,7 +1349,7 @@ a:focus {
   }
 }
 #market #market-1 .section:hover {
-  background: rgb(133, 193, 89);
+  background: rgba(133, 193, 89,1);
 }
 #market #market-1 .section:hover h2 {
   color: #202125;
