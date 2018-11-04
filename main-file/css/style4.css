@@ -638,6 +638,9 @@ a:focus {
   line-height: 24px;
   color: #ffffff;
 }
+.topbar p span{
+  color: rgb(133, 193, 89);
+}
 .topbar p:last-child {
   text-align: right;
 }
@@ -1069,6 +1072,71 @@ a:focus {
 /*slider styling end */
 /* home styling end */
 /* about us styling start */
+#about-us #about-us-1 .vertical-heading{
+  margin-bottom: -20px;
+}
+#about-us #about-us-1 .section {
+  /* margin-left: 5px; */
+  text-align: left;
+  -webkit-transition: all 400ms ease-in-out;
+          transition: all 400ms ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  #about-us #about-us-1 .section.middle-section {
+    margin: 50px 0;
+  }
+  #about-us #about-us-1 .section .vision-img,.mission-img{
+    margin:0 auto;
+  }
+}
+#about-us #about-us-1 .section h2 {
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: all 400ms ease-in-out;
+          transition: all 400ms ease-in-out;
+}
+#about-us #about-us-1 .section .vision-img{
+  background-image: url("../images/VISION.svg");
+  width: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+#about-us #about-us-1 .section .mission-img{
+  background-image: url("../images/MISSION.svg");
+  width: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+#about-us #about-us-1 .section hr {
+  width: 45px;
+  height: 3px;
+  background: rgb(133, 193, 89);
+  margin: 0 0 12px;
+  -webkit-transition: all 400ms ease-in-out;
+          transition: all 400ms ease-in-out;
+  border: none;
+}
+#about-us #about-us-1 .section h4 {
+  color: #000000;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+}
+#about-us #about-us-1 .section p {
+  line-height: 24px;
+}
+#about-us #about-us-1 .section:hover h2 {
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+@media screen and (max-width: 767px) {
+  #about-us #about-us-1 .section {
+    text-align: center;
+  }
+  #about-us #about-us-1 .section hr {
+    margin: 0 auto 20px;
+  }
+}
 /* #reason {
   /* reason-1 start */
   /* reason-1 end */
@@ -1315,7 +1383,7 @@ a:focus {
   /* market-3 end */
 /* } */ 
 #market #market-1 {
-  background: url("../images/784.jpg") no-repeat fixed center;
+  background: url("../images/veggie-market.jpg") no-repeat fixed center;
   background-size: cover;
 }
 #market #market-1 .vertical-heading {
@@ -1344,8 +1412,33 @@ a:focus {
   color: rgb(133, 193, 89);
   margin-bottom: 6px;
 }
-#market #market-1 .section img{
-  max-width: 25%;
+#market #market-1 .section h2 .img1{
+  background-image: url("../images/HK-veggie-restaurants.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#market #market-1 .section h2 .img2{
+  background-image: url("../images/all-HK-restaurants.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#market #market-1 .section h2 .img3{
+  background-image: url("../images/HK-population.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#market #market-1 .section h2 .img4{
+  background-image: url("../images/HK-veggie-population.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 @media screen and (max-width: 992px) {
   #market #market-1 .section {
@@ -1359,22 +1452,48 @@ a:focus {
   background: rgba(133, 193, 89,1);
 }
 #market #market-1 .section:hover h2 {
+  -webkit-transform: translateY(-18px);
+      -ms-transform: translateY(-18px);
+          transform: translateY(-18px);
+}
+#market #market-1 .section:hover img {
+  /* margin-left: -100px; */
   color: #202125;
-  -webkit-filter: drop-shadow( 0px 0px #202125); 
+  opacity: 0.5;
+  -webkit-filter: drop-shadow(0px 0px #202125); 
   filter: drop-shadow( 0px 0px #202125);
   -webkit-transform: translateY(-20px);
       -ms-transform: translateY(-20px);
           transform: translateY(-20px);
 }
-/* #market #market-1 .section:hover img {
-  margin-left: -300px;
-  color: #202125;
-  -webkit-filter: drop-shadow( 100px 0px #202125); 
-  filter: drop-shadow( 100px 0px #202125);
-  -webkit-transform: translateY(-20px);
-      -ms-transform: translateY(-20px);
-          transform: translateY(-20px);
-} */
+#market #market-1 .section:hover .img1{
+  background-image: url("../images/HK-veggie-restaurants-dark.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#market #market-1 .section:hover .img2{
+  background-image: url("../images/all-HK-restaurants-dark.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#market #market-1 .section:hover .img3{
+  background-image: url("../images/HK-population-dark.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#market #market-1 .section:hover .img4{
+  background-image: url("../images/HK-veggie-population-dark.svg");
+  width: 23%;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
 @media screen and (max-width: 767px) {
   #market #market-1 .section.left-section {
     margin-bottom: 50px;
@@ -1670,12 +1789,43 @@ a:focus {
     text-align: center;
     font-size: 36px;
   }
-  #services #service-2 .section .feature .icon img{
-    width: 10%;
+  #services #service-2 .section .feature .icon .img1,.img2,.img3,.img4{
+    margin: 5px 45%;
   }
 }
 #services #service-2 .section .feature .icon img{
   max-width: 80%;
+}
+#services #service-2 .section .feature .icon .img1{
+  background-image: url("../images/low-convenient-dark.svg");
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  float: right;
+}
+#services #service-2 .section .feature .icon .img2{
+  background-image: url("../images/lack-of-choice-dack.svg");
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  float: right;
+}
+#services #service-2 .section .feature .icon .img3{
+  background-image: url("../images/low-CP-ratio-dark.svg");
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  float: right;
+}
+#services #service-2 .section .feature .icon .img4{
+  background-image: url("../images/not-friendly-dark.svg");
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  float: right;
+}
+#services #service-2 .section .feature .icon .clear {
+  clear: both;
 }
 #services #service-2 .section .feature:hover h5 {
   color: #202125;
@@ -1686,8 +1836,20 @@ a:focus {
           transform: translateX(-20px);
   color: rgb(133, 193, 89);
 }
+#services #service-2 .section .feature:hover .icon .img1{
+  background-image: url("../images/low-convenient.svg");
+}
+#services #service-2 .section .feature:hover .icon .img2{
+  background-image: url("../images/lack-of-choice.svg");
+}
+#services #service-2 .section .feature:hover .icon .img3{
+  background-image: url("../images/low-CP-ratio.svg");
+}
+#services #service-2 .section .feature:hover .icon .img4{
+  background-image: url("../images/not-friendly.svg");
+}
 #services #service-3 {
-  background:url("../images/290826-P6PTAU-80.jpg") no-repeat fixed center;
+  background:url("../images/Sunny-road.jpg") no-repeat fixed center;
   background-size: cover;
   /* background-color:black;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; */
 }
@@ -1699,10 +1861,21 @@ a:focus {
   -moz-opacity:0.5;
   opacity: 0.5;
 }
-#services #service-3 h3 {
+#services #service-3 h1 {
   font-family: "Raleway", sans-serif;
+  font-weight: 400;
   color: #ffffff;
+  line-height: 60px;
+  width: 300px;
+  margin-left: 25%;
+}
+#services #service-3 h2 {
+  font-family: "Raleway", sans-serif;
+  color: #faf6f6;
   line-height: 45px;
+  width: 500px;
+  float: right;
+  margin-right: 20%;
 }
 #services #service-3 h3 i {
   color: #59717a;
