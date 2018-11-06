@@ -968,11 +968,11 @@ a:focus {
   bottom:0px;
   height:100%;
   width:100%;
-  background:black;
+  background:#202125;
   display:block;
   zoom:1;
-  filter:alpha(opacity=70);
-  opacity:0.7;
+  filter:alpha(opacity=50);
+  opacity:0.5;
 }
 #slider-tabs h1 {
   font-family: "Raleway", sans-serif;
@@ -1649,11 +1649,11 @@ a:focus {
 }
 #services #service-1 img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 #services #service-1 #responsiveTabsDemo .tabs-bg {
   background: #ffffff;
-  padding: 20px 30px;
+  padding: 61px 30px;
 }
 @media screen and (max-width: 992px) {
   #services #service-1 #responsiveTabsDemo .tabs-bg {
@@ -1662,7 +1662,6 @@ a:focus {
 }
 #services #service-1 #responsiveTabsDemo .col-md-6 {
   padding: 0;
-  height: 466px;
 }
 @media screen and (max-width: 767px) {
   #services #service-1 #responsiveTabsDemo .col-md-6 {
@@ -1748,15 +1747,6 @@ a:focus {
     line-height: 22px;
   }
 }
-#services #service-1 #responsiveTabsDemo .tips{
-  width: 50%;
-  float: left;
-}
-/* @media screen and (max-width: 992px) {
-  #services #service-1 #responsiveTabsDemo .tips{
-    text-align: left;
-  }
-} */
 #services #service-1 #responsiveTabsDemo .button {
   background: rgb(133, 193, 89);
   color: #ffffff;
@@ -1857,24 +1847,21 @@ a:focus {
   background-image: url("../images/not-friendly.svg");
 }
 #services #service-3 {
-  background:url("../images/Sunny-road.jpg") no-repeat fixed center;
+  background:url("../images/road.jpg") no-repeat fixed center;
   background-size: cover;
   /* background-color:black;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; */
 }
 #services #service-3 .container{
   width: 100%;
   padding: 120px 0;
-  background-color:#202125;
-  filter:alpha(Opacity=60);
-  -moz-opacity:0.6;
-  opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 #services #service-3 h1 {
   font-family: "Raleway", sans-serif;
+  font-size: 55px;
   font-weight: 400;
   color: #ffffff;
-  line-height: 60px;
-  /* width: 300px; */
+  line-height: 80px;
   margin-left: -30%;
 }
 @media screen and (max-width: 767px) {
@@ -1885,8 +1872,8 @@ a:focus {
 #services #service-3 h2 {
   font-family: "Raleway", sans-serif;
   color: #ffffff;
-  line-height: 45px;
-  /* width: 500px; */
+  line-height: 60px;
+  font-weight: 200;
   margin-left: 20%;
 }
 @media screen and (max-width: 767px) {
