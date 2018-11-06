@@ -1072,11 +1072,13 @@ a:focus {
 /*slider styling end */
 /* home styling end */
 /* about us styling start */
+#about-us #about-us-1{
+  padding-bottom: 100px;
+}
 #about-us #about-us-1 .vertical-heading{
   margin-bottom: -20px;
 }
 #about-us #about-us-1 .section {
-  /* margin-left: 5px; */
   text-align: left;
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
@@ -1098,20 +1100,21 @@ a:focus {
 #about-us #about-us-1 .section .vision-img{
   background-image: url("../images/VISION.svg");
   width: 50px;
-  height: 40px;
+  height: 45px;
   background-repeat: no-repeat;
 }
 #about-us #about-us-1 .section .mission-img{
   background-image: url("../images/MISSION.svg");
   width: 50px;
-  height: 40px;
+  height: 45px;
   background-repeat: no-repeat;
 }
 #about-us #about-us-1 .section hr {
   width: 45px;
   height: 3px;
   background: rgb(133, 193, 89);
-  margin: 0 0 12px;
+  margin-bottom: 12px;
+  margin-left: 0;
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
   border: none;
@@ -1414,28 +1417,28 @@ a:focus {
 }
 #market #market-1 .section h2 .img1{
   background-image: url("../images/HK-veggie-restaurants.svg");
-  width: 23%;
+  width: 25%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 #market #market-1 .section h2 .img2{
   background-image: url("../images/all-HK-restaurants.svg");
-  width: 23%;
+  width: 25%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 #market #market-1 .section h2 .img3{
   background-image: url("../images/HK-population.svg");
-  width: 23%;
+  width: 25%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 #market #market-1 .section h2 .img4{
   background-image: url("../images/HK-veggie-population.svg");
-  width: 23%;
+  width: 25%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -1666,14 +1669,6 @@ a:focus {
     padding: 0 15px;
   }
 }
-#services #service-1 #responsiveTabsDemo .col-md-6 #machine{
-  width: 60%;
-  margin-left: 20%;
-}
-#services #service-1 #responsiveTabsDemo .col-md-6 #mobile{
-  width: 40%;
-  margin-left: 30%;
-}
 #services #service-1 #responsiveTabsDemo .r-tabs .r-tabs-panel {
   padding: 50px 0;
 }
@@ -1802,6 +1797,7 @@ a:focus {
   height: 40px;
   background-repeat: no-repeat;
   float: right;
+  /* border: 1px solid transparent; */
 }
 #services #service-2 .section .feature .icon .img2{
   background-image: url("../images/lack-of-choice-dack.svg");
@@ -1809,6 +1805,7 @@ a:focus {
   height: 40px;
   background-repeat: no-repeat;
   float: right;
+  border: 1px solid transparent;
 }
 #services #service-2 .section .feature .icon .img3{
   background-image: url("../images/low-CP-ratio-dark.svg");
@@ -1816,6 +1813,7 @@ a:focus {
   height: 40px;
   background-repeat: no-repeat;
   float: right;
+  border: 1px solid transparent;
 }
 #services #service-2 .section .feature .icon .img4{
   background-image: url("../images/not-friendly-dark.svg");
@@ -1823,6 +1821,7 @@ a:focus {
   height: 40px;
   background-repeat: no-repeat;
   float: right;
+  border: 1px solid transparent;
 }
 #services #service-2 .section .feature .icon .clear {
   clear: both;
@@ -1857,25 +1856,24 @@ a:focus {
   width: 100%;
   padding: 120px 0;
   background-color:#202125;
-  filter:alpha(Opacity=50);
-  -moz-opacity:0.5;
-  opacity: 0.5;
+  filter:alpha(Opacity=60);
+  -moz-opacity:0.6;
+  opacity: 0.6;
 }
 #services #service-3 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: #ffffff;
   line-height: 60px;
-  width: 300px;
-  margin-left: 25%;
+  /* width: 300px; */
+  margin-left: -30%;
 }
 #services #service-3 h2 {
   font-family: "Raleway", sans-serif;
-  color: #faf6f6;
+  color: #ffffff;
   line-height: 45px;
-  width: 500px;
-  float: right;
-  margin-right: 20%;
+  /* width: 500px; */
+  margin-left: 20%;
 }
 #services #service-3 h3 i {
   color: #59717a;
@@ -1885,7 +1883,6 @@ a:focus {
   color: rbg(133,193,89);
   margin-top: 8px;
 }
-
 /* services styling end */
 /* portfolio styling start */
 /* #portfolio { */
@@ -2358,7 +2355,7 @@ a:focus {
   display: block;
   position: relative;
   width: 100%;
-  height: 540px;
+  height: 100%;
   -webkit-transition: all 400ms linear;
           transition: all 400ms linear;
 }
