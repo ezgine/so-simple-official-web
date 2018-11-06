@@ -959,8 +959,8 @@ a:focus {
   text-transform: uppercase;
 }
 #slider-tabs li .image-box{
-  width: 1920px;
-  height: 970px;
+  width: 100%;
+  height: 100%;
 }
 #slider-tabs li .above-black{
   position:absolute;
@@ -1417,28 +1417,28 @@ a:focus {
 }
 #market #market-1 .section h2 .img1{
   background-image: url("../images/HK-veggie-restaurants.svg");
-  width: 25%;
+  width: 23%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 #market #market-1 .section h2 .img2{
   background-image: url("../images/all-HK-restaurants.svg");
-  width: 25%;
+  width: 23%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 #market #market-1 .section h2 .img3{
   background-image: url("../images/HK-population.svg");
-  width: 25%;
+  width: 23%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 #market #market-1 .section h2 .img4{
   background-image: url("../images/HK-veggie-population.svg");
-  width: 25%;
+  width: 23%;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -1748,6 +1748,15 @@ a:focus {
     line-height: 22px;
   }
 }
+#services #service-1 #responsiveTabsDemo .tips{
+  width: 50%;
+  float: left;
+}
+/* @media screen and (max-width: 992px) {
+  #services #service-1 #responsiveTabsDemo .tips{
+    text-align: left;
+  }
+} */
 #services #service-1 #responsiveTabsDemo .button {
   background: rgb(133, 193, 89);
   color: #ffffff;
@@ -1868,12 +1877,22 @@ a:focus {
   /* width: 300px; */
   margin-left: -30%;
 }
+@media screen and (max-width: 767px) {
+  #services #service-3 h1 {
+    margin: 0 auto
+  }
+}
 #services #service-3 h2 {
   font-family: "Raleway", sans-serif;
   color: #ffffff;
   line-height: 45px;
   /* width: 500px; */
   margin-left: 20%;
+}
+@media screen and (max-width: 767px) {
+  #services #service-3 h2 {
+    margin: 0 auto
+  }
 }
 #services #service-3 h3 i {
   color: #59717a;
