@@ -1765,6 +1765,13 @@ a:focus {
   float: left;
   width: 50%;
 }
+@media screen and (max-width: 992px) {
+  #services #service-1 #responsiveTabsDemo .tips{
+    width: 80%;
+    margin-left: 20%;
+    text-align: left;
+  }
+}
 #services #service-1 #responsiveTabsDemo .button {
   background: rgb(133, 193, 89);
   color: #ffffff;
