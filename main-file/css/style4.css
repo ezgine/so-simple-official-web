@@ -1083,6 +1083,14 @@ a:focus {
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
 }
+#about-us #about-us-1 .space{
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  #about-us #about-us-1 .space{
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
   #about-us #about-us-1 .section.middle-section {
     margin: 50px 0;
@@ -1394,6 +1402,14 @@ a:focus {
 }
 #market #market-1 .vertical-heading h2,h4 {
   color: #ffffff;
+}
+#market #market-1 .space{
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  #market #market-1 .space{
+    display: none;
+  }
 }
 #market #market-1 .section {
   background: rgba(61, 68, 68, 0.5);
