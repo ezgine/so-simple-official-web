@@ -1868,10 +1868,10 @@ a:focus {
   background:url("../images/road.jpg") no-repeat fixed center;
   background-size: cover;
 }
-#services #service-3 .container{
+/* #services #service-3 .container{
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-}
+} */
 #services #service-3 .section{
   padding: 100px 0;
 }
