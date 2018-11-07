@@ -1765,7 +1765,7 @@ a:focus {
   float: left;
   width: 50%;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 678px) {
   #services #service-1 #responsiveTabsDemo .tips{
     width: 80%;
     margin-left: 20%;
