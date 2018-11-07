@@ -958,10 +958,10 @@ a:focus {
 #slider-tabs {
   text-transform: uppercase;
 }
-#slider-tabs li .image-box{
+/* #slider-tabs li .image-box{
   width: 100%;
   height: 100%;
-}
+} */
 #slider-tabs li .above-black{
   position:absolute;
   left:0px;
@@ -1649,7 +1649,6 @@ a:focus {
 }
 #services #service-1 img {
   width: 100%;
-  /* height: 100%; */
 }
 #services #service-1 #responsiveTabsDemo .tabs-bg {
   background: #ffffff;
@@ -1746,6 +1745,10 @@ a:focus {
   #services #service-1 #responsiveTabsDemo p {
     line-height: 22px;
   }
+}
+#services #service-1 #responsiveTabsDemo .tips{
+  float: left;
+  width: 50%;
 }
 #services #service-1 #responsiveTabsDemo .button {
   background: rgb(133, 193, 89);
@@ -2361,7 +2364,6 @@ a:focus {
   display: block;
   position: relative;
   width: 100%;
-  height: 100%;
   -webkit-transition: all 400ms linear;
           transition: all 400ms linear;
 }
@@ -2395,7 +2397,6 @@ a:focus {
   font-weight: 700;
 }
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info {
-  width: 100%;
   position: absolute;
   top: 50%;
   left: 0;
@@ -2451,7 +2452,6 @@ a:focus {
   }
 }
 #contact-us #contact-us1 .right-section .social .info {
-  width: 100%;
   position: absolute;
   top: 50%;
   left: 0;
@@ -2515,7 +2515,6 @@ a:focus {
 }
 #contact-us #contact-us1 .right-section .insta-2-3 img {
   width: 100%;
-  height: 270px;
   -webkit-transition: all 400ms linear;
           transition: all 400ms linear;
   overflow: hidden;
