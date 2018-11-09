@@ -657,7 +657,14 @@ a:focus {
     display: none;
   }
 }
-
+ h2 .title{
+    font-weight:0;
+}
+@media screen and (min-width: 767px) {
+  h2 .title{
+    font-weight:700;
+  }
+}
 /* home styling start */
 /*navbar styling start */
 .navbar {
@@ -1783,6 +1790,23 @@ a:focus {
   #services #service-2 .section {
     text-align: center;
     margin-top: 50px;
+  }
+}
+
+#services #service-2 .vertical-heading{
+  margin-top: -100px;
+}
+@media screen and (max-width: 767px) {
+  #services #service-2 .vertical-heading{
+  margin-bottom:-50px;
+  }
+}
+#services #service-2 .space{
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  #services #service-2 .space{
+    display: none;
   }
 }
 #services #service-2 .section .feature h5 {
