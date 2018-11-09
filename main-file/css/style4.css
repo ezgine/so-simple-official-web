@@ -658,7 +658,7 @@ a:focus {
   }
 }
  h2 .title{
-    font-weight:0;
+    font-weight:700;
 }
 @media screen and (min-width: 767px) {
   h2 .title{

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba7df09-0c5c-402a-8fa0-204d68e8b216" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/main-file/css/style4.css" beforeDir="false" afterPath="$PROJECT_DIR$/main-file/css/style4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-file/images/slider1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main-file/images/slider1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-file/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-file/index4.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +32,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="111" />
+          <entry key="css" value="114" />
           <entry key="html" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="111" />
+          <entry key="CSS" value="114" />
           <entry key="HTML" value="77" />
         </counts>
       </usages-collector>
@@ -48,10 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-file/index4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="317">
               <caret line="278" column="45" selection-start-line="278" selection-start-column="45" selection-end-line="278" selection-end-column="45" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -72,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-file/css/style4.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="663" column="4" selection-start-line="663" selection-start-column="4" selection-end-line="663" selection-end-column="4" />
+            <state relative-caret-position="304">
+              <caret line="660" column="18" selection-start-line="660" selection-start-column="18" selection-end-line="660" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -95,8 +93,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main-file/css/style4.css" />
         <option value="$PROJECT_DIR$/main-file/index4.html" />
+        <option value="$PROJECT_DIR$/main-file/css/style4.css" />
       </list>
     </option>
   </component>
@@ -191,16 +189,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main-file/css/style4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="663" column="4" selection-start-line="663" selection-start-column="4" selection-end-line="663" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-file/index4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="317">
           <caret line="278" column="45" selection-start-line="278" selection-start-column="45" selection-end-line="278" selection-end-column="45" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -217,6 +208,13 @@
             <element signature="n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#section#3;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-file/css/style4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="660" column="18" selection-start-line="660" selection-start-column="18" selection-end-line="660" selection-end-column="18" />
         </state>
       </provider>
     </entry>
